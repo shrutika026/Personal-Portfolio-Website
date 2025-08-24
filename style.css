@@ -1,0 +1,112 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #f4f4f9;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+header {
+  background: linear-gradient(to right, #4b6cb7, #182848);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+header img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+header h1 {
+  margin: 15px 0 10px;
+  font-size: 2.5em;
+}
+header p {
+  font-size: 1.2em;
+}
+
+nav {
+  background: #182848;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+nav a:hover {
+  color: #ffb703;
+}
+
+section {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #182848;
+  font-size: 2em;
+}
+
+.about, .skills, .projects {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+.skills li {
+  background: #4b6cb7;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.projects .card {
+  background: #4b6cb7;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+  background: #182848;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+footer button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 8px;
+  background: #ffb703;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+footer button:hover {
+  background: #ffd166;
+}
+
